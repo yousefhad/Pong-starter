@@ -1,7 +1,11 @@
 import './game.css';
+import Game from './Game';
 
-class Game {
-	constructor() {
-		const canvas = document.getElementById('game');
-	}
+var game = new Game();
+const fps = 30;
+
+function gameLoop() {
+    game.render();
+    setTimeout(gameLoop, fps);
 }
+gameLoop();

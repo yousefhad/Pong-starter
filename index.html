@@ -3,14 +3,18 @@
    <head>
        <meta charset="utf-8">
        <title>Pong</title>
-       <link rel="icon" type="image/ico" href="favicon.ico" />
+         <link rel="icon" type="image/ico" href="favicon.ico" />
+
    </head>
 
    <body>
+     <audio src="./sounds/pong-01.wav" id="sound-01"></audio>
+     <audio src="./sounds/pong-02.wav" id="sound-02"></audio>
+     <audio src="./sounds/pong-03.wav" id="sound-03"></audio>
        <h1>Pong Wars</h1>
 
        <!-- render game here -->
-       <canvas id="game"></canvas>
+       <canvas id="game" style="background-color:black"></canvas>
 
        <div class="players">
            <span>P1</span>
