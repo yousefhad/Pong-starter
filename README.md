@@ -20,3 +20,5 @@ A basic pong game using HTML5 Canvas. The purpose of this project is to explore 
 - Webpack
 - HTML5 Canvas
 
+![Alt text](./screenshots/pong.png)
+
